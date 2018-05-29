@@ -28,4 +28,6 @@ def Nderiv(f, N):
 def derivCompute(f, x):
    return (f(x + 0.0005) - f(x)) / 0.0005
 #
-
+   
+f1 = lambda x: 3*x ** 3 + 2 *x ** 2 + 4 * x + 7
+print(Nderiv(f1, 3)(2))
