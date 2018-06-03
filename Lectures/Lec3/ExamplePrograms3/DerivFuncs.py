@@ -6,8 +6,10 @@ from ComposeFuncs import *
 #***********************************************************
 #          "symbolic" derivation of a function          
 #***********************************************************
+
+eps = 0.0005
 def deriv(f):
-   return lambda x : (f(x + 0.0005) - f(x)) / 0.0005
+   return lambda x : (f(x + eps) - f(x)) / eps
 #
 #***********************************************************
 #          "symbolic" Nth derivation of a function           
