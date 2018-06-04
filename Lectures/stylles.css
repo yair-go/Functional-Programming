@@ -1,0 +1,19 @@
+#header1 {
+			text-align: center;
+			font-weight: bold;
+		}
+#header2 {
+		font-family: 'Comic sans MS'
+		color: red;
+	}
+.dages {
+	font-style : italic;
+	font-weight: bold;
+}
+.param {
+	color : #ff6600;
+	font-weight: bold;
+}
+.code {
+	text-indent:10%;
+}
